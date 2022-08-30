@@ -1,0 +1,13 @@
+#define DEVICE_NAME "light"
+
+#define DEVICE_MAC "01:23:45:67:89:ab"
+#define DEVICE_PASSWORD "1234"
+
+#define WIFI_SSID "SSID"
+#define WIFI_PASSWORD "PASSWORD"
+
+
+#define MQTT_BROKER "192.168.x.y"
+#define MQTT_USER "mqtt-user"
+#define MQTT_PASSWORD "mqtt-password"
+#define MQTT_BASE_TOPIC "ble2mqtt"
