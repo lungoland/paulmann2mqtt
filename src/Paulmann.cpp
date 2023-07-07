@@ -63,6 +63,7 @@ uint16_t Paulmann::getTemperature()
     return (expander << 8) + str[0];
 }
 
+
 bool Paulmann::sendCommand(BLEUUID characteristic, const std::string& payload)
 {
     bleHandle->setValue(SERVICE_UUID, CHARACTERISTIC_PIN, pin);
